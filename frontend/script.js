@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const user = document.querySelector('.login-container input[type="text"]').value.trim();
             const pass = document.querySelector('.login-container input[type="password"]').value.trim();
 
-            if (user !== "" && pass !== "") {
+            if (user !== "admin" && pass !== "1234") {
                 console.log("✅ Login correcto, redirigiendo...");
                 window.location.href = 'menu.html/menu.html';
             } else {
